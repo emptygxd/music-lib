@@ -1,0 +1,31 @@
+.videos{
+    width: 180px;
+    height: 130px;
+}
+
+.selection{
+  position: relative;
+  margin: 20px 10px 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.videoDiv p{
+  display: flex;
+  justify-content: center;
+  font-weight: 100;
+}
+
+.videoName{
+}
+
+.videoAuthor{
+}
+
+.modalWrapper{
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  position: absolute;
+}

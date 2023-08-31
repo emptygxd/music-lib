@@ -1,0 +1,100 @@
+.search{
+	width: 500px;
+	height: 35px;
+	padding-left: 43px;
+	border-radius: 9px;
+	border: none;
+	color: white;
+	background: #2a2a2a;
+	margin-right: 20px;
+}
+
+.searchDiv{
+	margin-top: 20px;
+	margin-left: 20px;
+	position: relative;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+.searchPic{
+	position: absolute;
+	top: 8px;
+    left: 12px;
+}
+
+.clear{
+	position: absolute;
+	top: 50%;
+	right: 25px;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+	transform: translateY(-50% );
+}
+
+.clear::before{
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 15px;
+	background: #999;
+	transform: rotate(45deg);
+}
+
+.clear::after{
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 15px;
+	background: #999;
+	transform: rotate(-45deg);
+}
+
+.searchItems{
+	display: flex;
+	max-width: 800px;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+
+.searchItem:hover{
+	background: #393939;
+	Transform: translateY(-5px)
+}
+
+.searchItem{
+	margin-left: 5px;
+	margin-top: 20px;
+	width: 130px;
+	height: 200px;
+	padding: 15px 18px 20px 18px;
+  	margin-left: 10px;
+  	margin-right: 10px;
+  	border: 1px solid #383838;
+	border-radius: 10px;
+}
+
+
+
+.searchSong{
+	margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 700px ;
+  cursor: pointer;
+}
+
+.searchMainCont{
+	margin-top: 20px;
+}
+
+#heart{
+	width: 80px;
+}

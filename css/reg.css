@@ -1,0 +1,55 @@
+.headerLog{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-height: 75px;
+	height: 75px;
+	font-weight: 700;
+	font-size: 30px;
+	padding-top: 25px;
+	position: relative;
+}
+
+.main-contentLog{
+	display: flex;
+	justify-content: center;
+	margin-top: 75px;
+}
+
+
+
+.main-contentLog p{
+	margin-top: 25px;
+}
+
+.reg{
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.reg h1{margin-top: 66px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.reg p{
+	width: 430px;
+	justify-content: flex-start;
+}
+
+
+.myauth2{
+	background: #1B1B1B;
+	color: #fff;
+	width: 430px;
+	height: 31px;
+	margin-top: 10px;
+	border: 1px solid #FFFFFF;
+	border-radius: 9px;
+}
+
+
+

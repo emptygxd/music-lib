@@ -1,0 +1,127 @@
+.profileLineFav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.headFav{
+	margin-top: 25px;
+	align-items: center;
+	height: 35px;
+	display: flex;
+    justify-content: flex-end;
+}
+
+.favHr{
+	width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5px solid #353535;
+    margin-top: 20px;
+}
+
+.favPic{
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 150px;
+	height: 150px;
+    border-radius: 20px;
+}
+
+.PLHead{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.favHeadText{
+	margin-left: 20px;
+	flex-direction: column;
+}
+
+.song{
+	margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.songDescr{
+	margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.songTextArtist{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.songTextOther{
+    font-weight: 400;
+    font-size: 13px;
+    color: #dedede;
+}
+
+.songArtist{
+	width: 310px;
+	flex-direction: column;
+}
+
+.songHr{
+	width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 0.5px solid #353535;
+}
+
+.pustota{
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.hovered{
+    margin-left: 15px;
+    width: 769px;
+    padding-left: 35px;
+    border-radius: 5px;
+    padding-right: 35px;
+    background: #393939; 
+}
+/*
+.favMainCont{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}     для красивого скругления при наведении на трек         */  
+
+.songNumber{
+    font-weight: 400;
+    font-size: 15px;
+    color: #dedede;
+    width: 50px;
+}
+
+.showAll{
+    font-weight: 300;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #a5a5a5;
+}
+
+.showAll:hover{
+    color: #f3f3f3;
+
+}

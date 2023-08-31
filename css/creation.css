@@ -1,0 +1,53 @@
+.creationDiv{
+    margin-top: 20px;
+	margin-left: auto;
+	position: relative;
+    display: flex;
+	margin-top: 20px;
+	margin-left: 20px;
+    justify-content: center;
+}
+
+.create{
+    width: 700px;
+	height: 35px;
+	padding-left: 43px;
+	border-radius: 9px;
+	border: none;
+	color: white;
+	background: #2a2a2a;
+}
+
+.createPic{
+	position: absolute;
+	top: 8px;
+    left: 62px;
+}
+
+.clearCr{
+	position: absolute;
+	top: 50%;
+    right: 55px;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+	transform: translateY(-50% );
+}
+
+.clearCr::before{
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 15px;
+	background: #999;
+	transform: rotate(45deg);
+}
+
+.clearCr::after{
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 15px;
+	background: #999;
+	transform: rotate(-45deg);
+}
